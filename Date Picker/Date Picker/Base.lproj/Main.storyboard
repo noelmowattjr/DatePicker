@@ -23,12 +23,15 @@
                                 <date key="date" timeIntervalSinceReferenceDate="497837055.549043">
                                     <!--2016-10-11 00:04:15 +0000-->
                                 </date>
+                                <connections>
+                                    <action selector="pickerDidChange:" destination="BYZ-38-t0r" eventType="valueChanged" id="XZf-Sb-f65"/>
+                                </connections>
                             </datePicker>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="It was a _" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ip7-N4-Dnb">
                                 <constraints>
                                     <constraint firstAttribute="height" constant="47" id="hbn-Iy-mqR"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>

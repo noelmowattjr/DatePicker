@@ -18,6 +18,25 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
+    
+    @IBAction func pickerDidChange(_ sender: AnyObject) {
+        
+        //--Capture date
+        let date: Date = picker.date
+        
+        //--Formatter
+        let formatter: DateFormatter = DateFormatter()
+        
+        //--Here we set the format of the date formate
+        //--four E's = a day of the week
+        formatter.dateFormat = "EEEE"
+        
+        //--Store day of week
+        let dayOfWeek: String = formatter.string(from: date)
+        
+        //--store dayOfWeek in label
+        EtiqutteMeansLABELInFrench.text = "The day is a \(dayOfWeek)"
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
