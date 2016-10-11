@@ -43,6 +43,10 @@
                             <constraint firstItem="FxX-ZP-O8A" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="uzu-PV-IJ4"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="EtiqutteMeansLABELInFrench" destination="ip7-N4-Dnb" id="rEP-Tj-Tse"/>
+                        <outlet property="picker" destination="FxX-ZP-O8A" id="gJq-aE-2oE"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
