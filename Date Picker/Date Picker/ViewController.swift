@@ -16,7 +16,9 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        //--Call as soon as view loads up
+        pickerDidChange(picker)
     }
     
     @IBAction func pickerDidChange(_ sender: AnyObject) {
